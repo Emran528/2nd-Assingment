@@ -14,18 +14,28 @@ main {
 
 .container {
     display: flex;
-    background-color: #1E1E1E;
-    width: 1200px;
-    height: 646px;
+    align-items: flex-start;
+    background-color: #161616;
+    width: 1320px;
+    height: 613px;
     margin: 50px 140px 0px;
+    border-radius: 25px;
+}
 
+.container-2 {
+    display: flex;
+
+    width: 1320px;
+    height: 613px;
+    margin: 130px 140px 0px;
+    border-radius: 25px;
 }
 
 .text-part {
     width: 50%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 400px 100px 100px;
+    grid-template-rows: auto 100px 100px;
     /* justify-items: center; */
 }
 
@@ -46,16 +56,13 @@ main {
     font-size: 16px;
     line-height: 26px;
 }
-.img{
-   
-}
 
 .img-part img {
     width: 581px;
     height: 613px;
 }
 
-button {
+.first-button {
     width: 187px;
     height: 56px;
     background-color: #40bbe0;
@@ -72,4 +79,98 @@ span {
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+}
+
+
+.left-side {
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative
+}
+
+.box {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 252px;
+    position: relative;
+}
+
+.box button {
+    width: 252px;
+    height: 64px;
+    color: #161616;
+    background-color: white;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.box .button-3 {
+    background-color: red;
+    color: white;
+}
+
+.right-side {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    margin-left: 15px;
+}
+
+.match {
+    width: 312px;
+    height: 362px;
+    border: 1px solid gray;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.match img {
+    width: 312px;
+    height: 175px;
+}
+
+.sec-button {
+    width: 100px;
+    height: 32px;
+    background-color: #FFFFFF;
+    margin: 20px 192px 15px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+
+.blog-title {
+    color: #161616;
+    margin: 0px 20px 20px 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.match-duration {
+    color: gray;
+    margin-right: 30px;
+}
+
+.fa-clock,
+.fa-message {
+    color: #161616;
+    margin-right: 10px;
+}
+
+.last-box {
+    margin: 20px 138px 20px 20px;
+}
+
+.message {
+    color: gray;
 }
