@@ -129,15 +129,15 @@ span {
 
 .match {
     width: 312px;
-    height: 242px;
+    height: 362px;
     border: 1px solid gray;
     background-color: #FFFFFF;
     border-radius: 10px;
 }
 
-.blog-image img {
-    width: 93.04px;
-    height: 56.18px;
+.match img {
+    width: 312px;
+    height: 175px;
 }
 
 .sec-button {
