@@ -190,7 +190,7 @@ span {
 }
 
 .footer-1 {
-    padding: 0px 618px 50px;
+    margin: 130px 309px 50px 309px;
 }
 
 .footer-1 h2 {
@@ -208,7 +208,7 @@ hr {
 
 .footer-2 {
     display: flex;
-    padding: 50px 200px 50px;
+    margin: 50px 100px 50px 100px;
 
 }
 

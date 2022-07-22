@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;
+    background-color: #FFFFFF;
 }
 
 main {
@@ -73,11 +73,10 @@ span {
 }
 
 /* comtainer-2 style */
-
 .container-2 {
     display: flex;
     width: 1320px;
-    height: 1150px;
+    height: 512px;
     margin: 130px 140px 0px;
     border-radius: 25px;
 }
@@ -131,55 +130,56 @@ span {
 
 .match {
     width: 312px;
-    height: 362px;
-    border: 1px solid gray;
+    height: 242px;
+    border: 1px solid #F3F1FF;
     background-color: #FFFFFF;
     border-radius: 10px;
 }
 
-/* .match img {
-    width: 312px;
-    height: 175px;
-} */
-.blog-image img{
+.match-box {
+    width: 252px;
+    height: 136.18px;
+    margin: 53px 30px 52px 30px;
+}
+
+.blog-images {
+    width: 252px;
+    height: 56.18px;
+    display: flex;
+}
+
+.blog-image img {
     width: 93.04px;
     height: 56.18px;
 }
-.sec-button {
-    width: 100px;
-    height: 32px;
-    background-color: #FFFFFF;
-    margin: 20px 192px 15px 20px;
-    font-weight: 500;
-    font-size: 16px;
-    border: 1px solid #161616;
-    border-radius: 5px;
+
+.middle {
+    margin: 20px 20px;
 }
 
-.blog-title {
+.middle h2 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: -4px 0px;
+}
+
+
+.blog-detail h3 {
     color: #161616;
-    margin: 0px 20px 20px 20px;
+    margin: 20px 25px 10px 25px;
     font-weight: 600;
     font-size: 18px;
-}
-
-.match-duration {
-    color: gray;
-    margin-right: 30px;
-}
-
-.fa-clock,
-.fa-message {
-    color: #161616;
-    margin-right: 10px;
+    text-align: center;
 }
 
 .last-box {
-    margin: 20px 138px 20px 20px;
+    margin: 10px 45px 52px;
 }
 
-.message {
-    color: gray;
+.match-time {
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 /* footer style */
@@ -195,7 +195,7 @@ span {
 }
 
 .footer-1 {
-    padding: 0px 618px 50px;
+    margin: 130px 309px 50px 309px;
 }
 
 .footer-1 h2 {
@@ -213,7 +213,7 @@ hr {
 
 .footer-2 {
     display: flex;
-    padding: 50px 200px 50px;
+    margin: 50px 100px 50px 100px;
 
 }
 
