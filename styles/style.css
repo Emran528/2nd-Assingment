@@ -48,6 +48,10 @@ main {
     line-height: 26px;
 }
 
+.img-part {
+    width: 50%;
+}
+
 .img-part img {
     width: 581px;
     height: 613px;
@@ -223,8 +227,8 @@ hr {
 
 @media screen and(max-width:576px) {
     .container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
     }
 
     .container-2 {

@@ -74,7 +74,8 @@ span {
 
 /* comtainer-2 style */
 .container-2 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 312px 990px;
     width: 1320px;
     height: 512px;
     margin: 130px 140px 0px;
