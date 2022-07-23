@@ -227,11 +227,22 @@ hr {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .container-2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 @media screen and(min-width:577px) and (max-width:992px) {
     .container {
-        display: flex;
-        align-items: flex-start;git
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .container-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
